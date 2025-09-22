@@ -3,7 +3,7 @@
 # Step 1: Create a README.md file (optional)
 echo "# Yash-Mandloi" >> README.md
 
-# Step 2: Initialize a Git repository (only if not already initialized)
+# Step 2: Initialize a Git repository (only Onces in the project when its initialized)
 git init
 
 # Step 3: Add files to the staging area
