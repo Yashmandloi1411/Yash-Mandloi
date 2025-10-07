@@ -20,3 +20,32 @@ git remote add origin https://github.com/Yashmandloi1411/Yash-Mandloi.git
 
 # Step 7: Push the changes to GitHub
 git push -u origin main
+
+
+
+
+multiple folder(repo) inside folder(repo)
+
+# Go to parent folder
+cd "C:\Users\yashm\OneDrive\Desktop\cohort2\css-class"
+
+# Clone repo from GitHub (sirf pehli baar)
+git clone https://github.com/Yashmandloi1411/Unique-Designs.git
+
+# Go inside repo
+cd Unique-Designs
+
+# Create a folder for your first design
+mkdir subway-ui
+
+# Move all design files (showPage ke andar jo files hain) into subway-ui
+Move-Item -Path ..\showPage\* -Destination .\subway-ui\
+
+# Add files to Git
+git add .
+
+# Commit changes
+git commit -m "Add Subway UI design"
+
+# Push to GitHub
+git push -u origin main
